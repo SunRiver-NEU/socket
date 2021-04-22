@@ -1,6 +1,6 @@
 /*!
-* Ê±¼ä£º2021Äê4ÔÂ21ÈÕ 15:41:28
-* ÊÂ¼ş£º³É¹¦Í¨¹ıutoolsµÄÄÚÍø´©Í¸£¬ÊµÏÖÁË²»Í¬¾Ö²¿Íø¼äµçÄÔµÄÁ¬½Ó£¡£¡
+* æ—¶é—´ï¼š2021å¹´4æœˆ21æ—¥ 15:41:28
+* äº‹ä»¶ï¼šæˆåŠŸé€šè¿‡utoolsçš„å†…ç½‘ç©¿é€ï¼Œå®ç°äº†ä¸åŒå±€éƒ¨ç½‘é—´ç”µè„‘çš„è¿æ¥ï¼ï¼
 */
 
 #include <QtCore/QCoreApplication>
@@ -13,7 +13,7 @@
 
 QTcpServer* server;
 QTcpSocket* s_client, * client;
-//·şÎñ¶Ë
+//æœåŠ¡ç«¯
 void Connect();
 void Server()
 {
@@ -29,7 +29,7 @@ void Server()
 		});
 }
 
-//¿Í»§¶Ë
+//å®¢æˆ·ç«¯
 void Client()
 {
 	client = new QTcpSocket;
