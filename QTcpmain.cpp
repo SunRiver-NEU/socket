@@ -14,7 +14,7 @@
 QTcpServer* server;
 QTcpSocket* s_client, * client;
 //服务端
-void Connect();
+
 void Server()
 {
 	server = new QTcpServer;
